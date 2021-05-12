@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-function Header(props) {
+function Header( ) {
   return (
-
+   
     <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
       <div className="container">
@@ -24,7 +24,9 @@ function Header(props) {
           </div>
         </div>
       </div>
+      </div>
     </nav>
+   
 
   )
 }
