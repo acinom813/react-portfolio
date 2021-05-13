@@ -1,5 +1,12 @@
 import React from 'react';
-import './App.css';
+import project1 from "../images/work.png";
+import project2 from "../images/rpg mgr.png";
+import project3 from "../images/dashboard.png";
+import project4 from "../images/quiz.png";
+import project5 from "../images/online-offline-budget-tracker.png";
+import project6 from "../images/employeedirectory.png";
+
+
 
 function Project(props) {
     return (
@@ -13,8 +20,8 @@ function Project(props) {
                 <div className="row">
 
                     <div className="col-lg-4 col-md-6 col-12 pb-5">
-                        <div className="card" style="width: 18rem;">
-                            <img className="card-img-top" src="images/work.png" alt="" />
+                        <div className="card" style={{"width": "18rem"}}>
+                            <img className="card-img-top" src={project1} alt="" />
                                 <div className="card-body">
                                     <h5 className="card-title">Work Day Scheduler</h5>
                                     <p className="card-text"></p>
@@ -25,8 +32,8 @@ function Project(props) {
                     </div>
 
                         <div className="col-lg-4 col-md-6 col-12 pb-5">
-                            <div className="card" style="width: 18rem;">
-                                <img className="card-img-top" src="images/rpg mgr.png" alt="" />
+                            <div className="card" style={{"width": "18rem"}}>
+                                <img className="card-img-top" src={project2} alt="" />
                                     <div className="card-body">
                                         <h5 className="card-title">RPG Manager</h5>
                                         <p className="card-text"></p>
@@ -36,8 +43,8 @@ function Project(props) {
                         </div>
 
                             <div className="col-lg-4 col-md-6 col-12 pb-5">
-                                <div className="card" style="width: 18rem;">
-                                    <img className="card-img-top" src="images/dashboard.png" alt="" />
+                                <div className="card"style={{"width": "18rem"}}>
+                                    <img className="card-img-top" src={project3} alt="" />
                                         <div className="card-body">
                                             <h5 className="card-title">Weather Dashboard App</h5>
                                             <p className="card-text"></p>
@@ -47,8 +54,8 @@ function Project(props) {
                             </div>
 
                                 <div className="col-lg-4 col-md-6 col-12 pb-5">
-                                    <div className="card" style="width: 18rem;">
-                                        <img className="card-img-top" src="images/quiz.png" alt="" />
+                                    <div className="card" style={{"width": "18rem"}}>
+                                        <img className="card-img-top" src={project4} alt="" />
                                             <div className="card-body">
                                                 <h5 className="card-title">Coding Quiz</h5>
                                                 <p className="card-text"></p>
@@ -58,8 +65,8 @@ function Project(props) {
                                  </div>
 
                                     <div className="col-lg-4 col-md-6 col-12 pb-5">
-                                        <div className="card" style="width: 18rem;">
-                                            <img className="card-img-top" src="images/online-offline-budget-tracker.png" alt="" />
+                                        <div className="card" style={{"width": "18rem"}}>
+                                            <img className="card-img-top" src={project5} alt="" />
                                                 <div className="card-body">
                                                     <h5 className="card-title">Online/Offline Budget Tracker</h5>
                                                     <p className="card-text"></p>
@@ -69,8 +76,8 @@ function Project(props) {
                                     </div>
 
                                         <div className="col-lg-4 col-md-6 col-12 pb-5">
-                                            <div className="card" style="width: 18rem;">
-                                                <img className="card-img-top" src="images/employeedirectory.png" alt="" />
+                                            <div className="card" style={{"width": "18rem"}}>
+                                                <img className="card-img-top" src={project6} alt="" />
                                                     <div className="card-body">
                                                         <h5 className="card-title">Employee Directory: Built Using React</h5>
                                                         <p className="card-text"></p>

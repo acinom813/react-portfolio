@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+
 
 function Header( ) {
   return (
@@ -16,7 +16,7 @@ function Header( ) {
             <a className="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
             <a className="nav-link" href="portfolio.html">Portfolio</a>
             <a className="nav-link" href="contact.html">Contact</a>
-            <a className="nav-item nav-link dropdown dropdown-toggle " id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-item nav-link dropdown dropdown-toggle " href="images/resume.pdf" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Resume</a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a className="dropdown-item"  href="images/resume.pdf"> Monica Hill: Jr. Web Developer</a>
