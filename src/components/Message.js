@@ -21,14 +21,15 @@ function Message(props) {
     return (
         <div id="contact" className="w-50 mx-auto mt-5 mb-5">
             <div className="post-heading text-center">
-                <h4 className="display-4 font-weight-bold">Connect.</h4>
+                <h4 className="display-4 font-weight-medium">Connect.</h4>
                 <hr className="w-50 mx-auto pb-5" />
             </div>
 
+            <h3>Email</h3>
             <form action="/action_page.php">
                 <div className="form-group">
                     <label for="subject">Subject:</label>
-                    <input type="text" class="form-control" placeholder="Subject" id="email" name="subject" value={contact.subject} onChange={handleInputChange} />
+                    <input type="text" class="form-control"  id="email" name="subject" value={contact.subject} onChange={handleInputChange} />
                 </div>
 
                 <div className="form-group">
@@ -36,11 +37,13 @@ function Message(props) {
                     <textarea className="form-control"  name="message" value={contact.message} onChange={handleInputChange}></textarea>
                 </div>
 
-                <button className="btn" onClick={handleSubmit} >Email Me</button> 
+                <button className="btn btn-warning" onClick={handleSubmit} >Submit</button> 
             </form>
+            <br>
+            </br>
             <div>
-      <h2>Social Media</h2>
-<p><a href="https://www.linkedin.com/in/monica-r-hill">LinkedIn</a></p>
+      <h3>Social Media</h3>
+            <p><a href="https://www.linkedin.com/in/monica-r-hill">LinkedIn</a></p>
     </div>
 
 

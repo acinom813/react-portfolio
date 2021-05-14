@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 
 
 function Header( ) {
@@ -13,9 +14,9 @@ function Header( ) {
         </button>
         <div className="collapse navbar-collapse" id="navbar">
           <div className="navbar-nav ml-auto mt-2 mt-lg-0">
-            <a className="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a className="nav-link" href="portfolio.html">Portfolio</a>
-            <a className="nav-link" href="contact.html">Contact</a>
+            <a  className="nav-link active" href="index.html">Home <span class="sr-only">(current)</span> </a>
+            <a  className="nav-link" href="portfolio.html">Portfolio</a>
+            <a  className="nav-link" href="contact.html">Contact</a>
             <a className="nav-item nav-link dropdown dropdown-toggle " href="images/resume.pdf" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Resume</a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
