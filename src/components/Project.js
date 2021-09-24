@@ -69,13 +69,13 @@ function Project(props) {
               <h5 className="card-title">Coding Quiz</h5>
               <p className="card-text"></p>
               <a
-                href="https://github.com/acinom813/homework-4"
+                href="https://github.com/acinom813/homework-4/"
                 className="btn btn-dark"
               >
                 Repository
               </a>
               <a
-                href="https://github.com/acinom813/homework-5"
+                href="https://acinom813.github.io/homework-4"
                 className="btn btn-dark"
               >
                 Deployment
@@ -97,7 +97,7 @@ function Project(props) {
                 Repository
               </a>
               <a
-                href="https://github.com/acinom813/homework-5"
+                href="https://online-offline-budget-24717.herokuapp.com/"
                 className="btn btn-dark"
               >
                 Deployment
@@ -121,7 +121,7 @@ function Project(props) {
                 Repository
               </a>
               <a
-                href="https://github.com/acinom813/homework-5"
+                href="https://react-employee-directory-38894.herokuapp.com/"
                 className="btn btn-dark"
               >
                 Deployment
