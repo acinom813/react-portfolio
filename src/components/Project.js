@@ -37,7 +37,7 @@ function Project(props) {
                                     <div className="card-body">
                                         <h5 className="card-title">RPG Manager</h5>
                                         <p className="card-text"></p>
-                                        <a href="http://p2-rpg-manager.herokuapp.com" className="btn btn-dark">Click to View Repository</a>
+                                        <a href="http://p2-rpg-manager.herokuapp.com" className="btn btn-dark">View RPG Manager</a>
                                     </div>
                              </div>
                         </div>
@@ -48,7 +48,7 @@ function Project(props) {
                                         <div className="card-body">
                                             <h5 className="card-title">Weather Dashboard App</h5>
                                             <p className="card-text"></p>
-                                            <a href="https://github.com/acinom813/Weather-Dashboard" className="btn btn-dark">Click to View Repository</a>
+                                            <a href="https://github.com/acinom813/Weather-Dashboard" className="btn btn-dark">View Repository</a>
                                         </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ function Project(props) {
                                             <div className="card-body">
                                                 <h5 className="card-title">Coding Quiz</h5>
                                                 <p className="card-text"></p>
-                                                <a href="https://github.com/acinom813/homework-4" className="btn btn-dark">Click to View Repository</a>
+                                                <a href="https://github.com/acinom813/homework-4" className="btn btn-dark">View Repository</a>
                                             </div>
                                     </div>
                                  </div>
@@ -70,7 +70,7 @@ function Project(props) {
                                                 <div className="card-body">
                                                     <h5 className="card-title">Online/Offline Budget Tracker</h5>
                                                     <p className="card-text"></p>
-                                                    <a href="https://github.com/acinom813/online-offline-budget-tracker" className="btn btn-dark">Click to View Repository</a>
+                                                    <a href="https://github.com/acinom813/online-offline-budget-tracker" className="btn btn-dark">View Repository</a>
                                                 </div>
                                         </div>
                                     </div>
@@ -81,7 +81,7 @@ function Project(props) {
                                                     <div className="card-body">
                                                         <h5 className="card-title">Employee Directory: Built Using React</h5>
                                                         <p className="card-text"></p>
-                                                        <a href="https://github.com/acinom813/react-employee-directory" className="btn btn-dark">Click to View Repository</a>
+                                                        <a href="https://github.com/acinom813/react-employee-directory" className="btn btn-dark">View Repository</a>
                                                     </div>
                                             </div>
                                         </div>
