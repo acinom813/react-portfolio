@@ -136,16 +136,10 @@ function Project(props) {
             <div className="card-body">
               <h5 className="card-title">Web-Dev-Game</h5>
               <p className="card-text"></p>
-              <a
-                href="https://github.com/malenchite/web-dev-game"
-                className="btn btn-dark"
-              >
+              <a href="https://github.com/malenchite/web-dev-game" className="btn btn-dark">
                 Repository
               </a>
-              <a
-                href="https://the-web-dev-game.herokuapp.com/"
-                className="btn btn-dark"
-              >
+              <a href="https://the-web-dev-game.herokuapp.com/" className="btn btn-dark">
                 Deployment
               </a>
             </div>
