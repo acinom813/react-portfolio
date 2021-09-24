@@ -80,7 +80,13 @@ main {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: bold;
-  
+  padding: 5git p0px;
+}
+.btn{
+  font-size: 15px;
+  padding-right: 20px;
+  align-items: center;
+  margin-right: 50px;
 }
 
 #portfolio {
@@ -96,7 +102,7 @@ main {
 
 
 /* ------------------------- */
-/* other styles will be here */
+/* other styles */
 body, html {
   height: 100%;
 }
@@ -108,7 +114,7 @@ body, html {
   /* Full height */
   height: 100%;
 
-  /* Center and scale the image nicely */
+  /* Center and scale image */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
