@@ -1,7 +1,7 @@
 import React from "react";
 import project1 from "../images/work.png";
 import project2 from "../images/rpg mgr.png";
-import project3 from "../images/screenshot2.png";
+import project3 from "../images/web-dev.png";
 import project4 from "../images/quiz.png";
 import project5 from "../images/online-offline-budget-tracker.png";
 import project6 from "../images/employeedirectory.png";
@@ -136,16 +136,10 @@ function Project(props) {
             <div className="card-body">
               <h5 className="card-title">Web-Dev-Game</h5>
               <p className="card-text"></p>
-              <a
-                href="https://github.com/malenchite/web-dev-game"
-                className="btn btn-dark"
-              >
+              <a href="https://github.com/malenchite/web-dev-game" className="btn btn-dark">
                 Repository
               </a>
-              <a
-                href="https://the-web-dev-game.herokuapp.com/"
-                className="btn btn-dark"
-              >
+              <a href="https://the-web-dev-game.herokuapp.com/" className="btn btn-dark">
                 Deployment
               </a>
             </div>
