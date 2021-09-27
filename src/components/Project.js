@@ -4,7 +4,6 @@ import project2 from "../images/rpg mgr.png";
 import project3 from "../images/web-dev.png";
 import project4 from "../images/quiz.png";
 import project5 from "../images/online-offline-budget-tracker.png";
-import project6 from "../images/employeedirectory.png";
 
 function Project(props) {
   return (
